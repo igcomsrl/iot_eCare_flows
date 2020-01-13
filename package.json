@@ -10,7 +10,7 @@
         "node-red-contrib-influxdb": "0.2.2",
         "node-red-contrib-key-value-store": "0.1.8",
         "node-red-contrib-repeat": "0.0.27",
-        "node-red-dashboard": "2.12.2"
+        "node-red-dashboard": "2.19.3"
     },
     "node-red": {
         "settings": {
