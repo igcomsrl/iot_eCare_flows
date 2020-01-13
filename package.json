@@ -1,0 +1,21 @@
+{
+    "name": "flow-cloud",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "dependencies": {
+        "json-db-node-red": "0.5.3",
+        "node-red-contrib-advance-logger": "1.0.2",
+        "node-red-contrib-auth": "0.1.7",
+        "node-red-contrib-flogger": "1.2.2",
+        "node-red-contrib-influxdb": "0.2.2",
+        "node-red-contrib-key-value-store": "0.1.8",
+        "node-red-contrib-repeat": "0.0.27",
+        "node-red-dashboard": "2.12.2"
+    },
+    "node-red": {
+        "settings": {
+            "flowFile": "manage_sensor_data.json",
+            "credentialsFile": "manage_sensor_data_cred.json"
+        }
+    }
+}
