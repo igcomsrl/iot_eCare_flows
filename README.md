@@ -14,3 +14,11 @@ Il progetto consiste in una piattaforma software a supporto della erogazione un 
 ### Installation
 
 
+### Contributing
+
+If you would like to contribute to iot_eCare, Community Edition project, please read CONTRIBUTING.md, then sign and return the Contributor License Agreement (CLA).
+
+###Licensing
+
+This project is currently licensed under the EUPL License.
+
