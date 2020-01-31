@@ -17,10 +17,11 @@
 // The `https` setting requires the `fs` module. Uncomment the following
 // to make it available:
 //var fs = require("fs");
+
 const bcrypt = require('bcryptjs');
 
 let dashboard_user = process.env.DASHBOARD_USERNAME || "ubuntu";
-let dashboard_pw = bcrypt.hashSync(process.env.DASHBOARD_PASSWORD, 8) || "$2a$08$6Xb.sEnq1UueVGsCLxD6huP4vRJi8ARwIv2pBnqCV3G8xrV2n54t2";
+let dashboard_pw = bcrypt.hashSync(process.env.DASHBOARD_PASSWORD || "G10m1R0m3", 8);
 
 module.exports = {
     // the tcp port that the Node-RED web server is listening on
@@ -69,7 +70,7 @@ module.exports = {
     //debugUseColors: true,
 
     // The file containing the flows. If not set, it defaults to flows_<hostname>.json
-    //flowFile: 'flows.json',
+    flowFile: 'flows.json',
 
     // To enabled pretty-printing of the flow within the flow file, set the following
     //  property to true:
@@ -142,7 +143,6 @@ module.exports = {
     // the static content (httpStatic), the following properties can be used.
     // The pass field is a bcrypt hash of the password.
     // See http://nodered.org/docs/security.html#generating-the-password-hash
-    
     httpNodeAuth: {user:dashboard_user,pass:dashboard_pw},
     httpStaticAuth: {user:dashboard_user,pass:dashboard_pw},
 
