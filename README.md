@@ -15,5 +15,5 @@ Se vuoi contribuire a iot_eCare, leggi il file CONTRIBUTING.md, e restuiscilo fi
 
 ### Licenza
 
-Questo progetto è distribuito sotto EUPL License.
+Questo progetto è distribuito sotto EUPL License. Vedi il file LICENSE per le informazioni sulla licenza: https://github.com/igcomsrl/iot_eCare_flows/blob/master/LICENSE
 
